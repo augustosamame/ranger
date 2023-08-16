@@ -1,6 +1,6 @@
 {
   "private": true,
-  "repository": "https://github.com/tanstack/ranger.git",
+  "repository": "https://github.com/augustosamame/ranger.git",
   "scripts": {
     "clean-dist": "pnpm -rc --parallel exec 'rm -rf build dist'",
     "clean-all": "pnpm -rc --parallel exec 'rm -rf build dist node_modules'",
@@ -19,17 +19,6 @@
     "typecheck": "tsc -b",
     "typecheck-perf": "tsc -b --generateTrace ts-perf"
   },
-  "namespace": "@tanstack",
-  "workspaces": [
-    "./packages/*",
-    "./examples/react/*"
-  ],
-  "pnpm": {
-    "overrides": {
-      "@tanstack/ranger": "workspace:*",
-      "@tanstack/react-ranger": "workspace:*"
-    }
-  },
   "devDependencies": {
     "@babel/core": "^7.17.9",
     "@babel/preset-env": "^7.16.11",
@@ -40,8 +29,6 @@
     "@rollup/plugin-babel": "^5.3.1",
     "@rollup/plugin-node-resolve": "^13.2.1",
     "@rollup/plugin-replace": "^4.0.0",
-    "@testing-library/react": "^12.1.2",
-    "@testing-library/react-hooks": "^7.0.2",
     "@tsconfig/svelte": "^3.0.0",
     "@types/luxon": "^2.3.1",
     "@types/node": "^17.0.25",
