@@ -1,4 +1,7 @@
 {
+  "name": "react18-multi-ranger",
+  "version": "0.0.1",
+  "description": "A multi-range slider component for React 18",
   "repository": "https://github.com/augustosamame/ranger.git",
   "scripts": {
     "clean-dist": "pnpm -rc --parallel exec 'rm -rf build dist'",
