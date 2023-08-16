@@ -1,5 +1,4 @@
 {
-  "private": true,
   "repository": "https://github.com/augustosamame/ranger.git",
   "scripts": {
     "clean-dist": "pnpm -rc --parallel exec 'rm -rf build dist'",
